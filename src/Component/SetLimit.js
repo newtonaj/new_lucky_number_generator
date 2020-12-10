@@ -35,9 +35,7 @@ class SetLimit extends Component {
         <button className="btn" onClick={incrementHandler}>
           +
         </button>
-        <button className="btn" onClick={reset}>
-          Reset
-        </button>
+        <button onClick={reset}>Reset</button>
       </div>
     );
   }

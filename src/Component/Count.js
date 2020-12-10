@@ -27,7 +27,7 @@ import React, { Component } from 'react'
             <button className="btn" onClick={incrementCountHandler}>
                 +
             </button>
-            <button className="btn" onClick={resetCountHandler}>
+            <button onClick={resetCountHandler}>
                 Reset
             </button>
         </div>

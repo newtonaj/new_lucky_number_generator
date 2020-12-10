@@ -52,6 +52,7 @@ button {
   color: rgb(255, 217, 0);
   min-width: 50px;
   text-align: center;
+  border:none;
   
 }
 .btn {
