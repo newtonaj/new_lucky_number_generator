@@ -3,11 +3,7 @@ import React, { Component } from 'react'
  class Count extends Component {
      constructor(props) {
          super(props)
-     
-         this.state = {
-              
-         }
-         
+         this.state= {}
      }
      
     
@@ -19,7 +15,7 @@ import React, { Component } from 'react'
             <span className='blue'>ex: 4</span>
             </p>
             
-            <button onClick={decrementCountHandler}>
+            <button onClick={decrementCountHandler} className="btn">
                 -
             </button>
            <input 
@@ -28,10 +24,10 @@ import React, { Component } from 'react'
                 value={value}
                 onChange={onChangeSetCount}
            />
-            <button onClick={incrementCountHandler}>
+            <button className="btn" onClick={incrementCountHandler}>
                 +
             </button>
-            <button onClick={resetCountHandler}>
+            <button className="btn" onClick={resetCountHandler}>
                 Reset
             </button>
         </div>

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-align: left;
+  font-family: fantasy;
   
 }
 .container {
@@ -51,8 +52,11 @@ button {
   color: rgb(255, 217, 0);
   min-width: 50px;
   text-align: center;
+  
+}
+.btn {
   font-size:1.9em;
-  border: red;
+  border:red;
 }
 button:hover {
   background-color: rgb(255, 217, 0);
