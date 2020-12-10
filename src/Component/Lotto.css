@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: cursive;
+}
+.container {
+  background-color: black;
+  min-height: 100vh;
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(240, 239, 239);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px;
+  background-color: rgb(10, 10, 10);
+  color: rgb(255, 217, 0);
+  max-width: 600px;
+  /* word-spacing: .5em; */
+  /* letter-spacing: .02em; */
+
+}
+nav {
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 2rem;
+  color: rgb(255, 217, 0);
+}
+
+
+
+.displayNumber {
+  border: 3px solid rgb(255, 217, 0);
+  color: rgb(255, 217, 0);
+  margin: 20px 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: black;
+}
+
+button {
+  padding: 10px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  background-color: black;
+  color: rgb(255, 217, 0);
+  min-width: 50px;
+  text-align: center;
+  border: none;
+}
+button:hover {
+  background-color: rgb(255, 217, 0);
+  color: black;
+  border: none;
+}
+button:focus {
+  background-color: red;
+  color: white;
+  border: none;
+}
+.blue {
+  color:red;
+  background-color: rgb(255, 217, 0);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.results {
+  display: inline-flex;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 50%;
+  background-color:black;
+  color: rgb(255, 217, 0);
+  justify-content: center;
+  border: 3px solid rgb(255, 217, 0);
+  align-items: center;
+}
+.green {
+  color: rgb(255, 217, 0);
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 5px;
+  background-color: black;
+  margin: 5px 0;
+  padding: 10px ;
+}
+.red {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: rgb(255, 217, 0);
+  padding: 10px ;
+  border-radius: 5px;
+  margin: 10px 0;
+}
